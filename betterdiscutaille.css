@@ -1,0 +1,94 @@
+#pseudoInput, #statusInput {
+    height: 25px;
+}
+
+span.tag {
+    font-weight: bolder;
+    padding: 0 5px;
+    border-radius: 2px;
+}
+
+span.tag.tag-bot {
+    background: dodgerblue;
+    color: white;
+}
+
+span.tag.tag-system {
+    background: crimson;
+    color: white;
+}
+
+span.mention {
+    padding: 0 5px;
+    border-radius: 2px;
+    background: rgba(0, 255, 255, 0.3);
+    color: rgb(0, 100, 100);
+    /* cursor: pointer; */
+}
+
+.mentioned-message {
+    background: rgba(0, 255, 255, 0.4);
+    display: inline-block;
+    padding: 2px 0;
+    border-radius: 2px;
+    width: 100%;
+}
+
+.normal-message {
+    display: inline-block;
+    padding: 2px 0;
+    width: 100%;
+}
+
+.author-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.author-container::before {
+    content: '> ';
+}
+
+.author-data {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+
+.author-container .author-pseudo {
+    font-weight: bold;
+}
+
+.author-container .author-status {
+    font-size: 12px;
+    color: #777;
+}
+
+img.message-image {
+    max-height: 33vh;
+}
+
+.inputdiv {
+    position: relative;
+}
+
+.pseudo-list {
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+    width: 100%;
+    background: white;
+    padding: 5px;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.pseudo-list .pseudo-element {
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px;
+}
+
+.pseudo-list .pseudo-element.selected {
+    background: #eee;
+}

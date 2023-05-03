@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Better Discutaille",
+    "version": "1.0",
+    "description": "A better version of Discutaille",
+    "content_scripts": [{
+        "matches": ["https://discutaille.center/*"],
+        "js": ["content.js"]
+    }],
+    "web_accessible_resources": [{
+        "resources": ["betterdiscutaille.js", "betterdiscutaille.css", "librairies/*"],
+        "matches": ["https://discutaille.center/*"]
+    }]
+}
