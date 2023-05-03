@@ -10,5 +10,8 @@
     "web_accessible_resources": [{
         "resources": ["betterdiscutaille.js", "betterdiscutaille.css", "librairies/*"],
         "matches": ["https://discutaille.center/*"]
-    }]
+    }],
+    "icons": {
+        "964": "icons/logo.png"
+    }
 }
