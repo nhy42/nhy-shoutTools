@@ -1,6 +1,11 @@
 {
     "manifest_version": 3,
-    "id": "xyz.docsystem.betterdiscutaille",
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "betterdiscutaille@docsystem.xyz",
+            "strict_min_version": "42.0"
+        }
+    },
     "name": "Better Discutaille",
     "version": "1.0",
     "description": "A better version of Discutaille",
