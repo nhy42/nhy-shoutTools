@@ -1,5 +1,6 @@
 {
     "manifest_version": 3,
+    "id": "xyz.docsystem.betterdiscutaille",
     "name": "Better Discutaille",
     "version": "1.0",
     "description": "A better version of Discutaille",
@@ -12,6 +13,6 @@
         "matches": ["https://discutaille.center/*"]
     }],
     "icons": {
-        "964": "icons/logo.png"
+        "128": "icons/logo.png"
     }
 }
